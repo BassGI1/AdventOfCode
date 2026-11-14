@@ -1,3 +1,5 @@
+# Terrible code, runs in 90 mins
+
 raw_input = open("./input.txt", "r").read()
 
 

@@ -1,5 +1,3 @@
-from pprint import pprint
-
 raw_input = open("./input.txt", "r").read()
 
 NUM_ROWS_PART_1 = 40
