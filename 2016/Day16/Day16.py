@@ -56,7 +56,6 @@ curr_num_bits = len(raw_input)
 while curr_num_bits < DISK_LENGTH:
     disk = dragon_curve(disk, curr_num_bits)
     curr_num_bits = curr_num_bits * 2 + 1
-    print(curr_num_bits)
 
 disk = disk >> (curr_num_bits - DISK_LENGTH)
 curr_num_bits = DISK_LENGTH
